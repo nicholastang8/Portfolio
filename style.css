@@ -80,6 +80,10 @@ nav ul li a:hover::after{
     height: 400px;
   }
 
+.image img{
+    border-radius: 5%;
+}
+
 .header-text{
     display: inline-block;
     margin-top: 10%;
