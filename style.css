@@ -116,6 +116,10 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 p{
+    line-height: 2;
+}
+
 .about-col-2 h1 span{
     color: #d43ab8;
 }
