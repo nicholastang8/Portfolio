@@ -255,6 +255,11 @@ nav ul li a:hover::after{
     color: #27bbbb;
     
 }
+.contact-left a{
+    text-decoration: none;
+    color: #27bbbb;
+}
+
 .sub-title a{
     text-decoration:none ;
     font-size: 30px;
@@ -283,6 +288,7 @@ nav ul li a:hover::after{
     transform:translateY(-5px);
 }
 .btn.btn2{
+    border-radius: 15px;
     margin-top:10px;
     display: inline-block;
     background: #8f428b;
@@ -290,9 +296,14 @@ nav ul li a:hover::after{
     cursor: pointer;
     padding: 10px 20px;
     text-decoration: none; 
-    color: black;
+    color: #ababab;
+    transition: transform 0.5s;
 }
 
+.btn:hover {
+    transform:translateY(-5px);
+    color: #ffffff;
+  } 
 
 .copyright{
     width:100%;
